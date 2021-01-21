@@ -157,7 +157,7 @@
 
 	<?= getContent( <<<ARB
 		<!-- Fonts -->
-		<link rel="stylesheet" href="https://use.typekit.net/hfk0cwi.css">
+		<link rel="stylesheet" href="https://use.typekit.net/blr6yui.css">
 		<!-- Icons -->
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 ARB

@@ -92,7 +92,7 @@
 body, .body {
 	position: relative;
 	color: var(--dark);
-	font-family: 'poppins', Arial, sans-serif;
+	font-family: 'aktiv-grotesk', Arial, sans-serif;
 	font-weight: 400;
 	font-size: 1.4rem;
 	line-height: 1.375;
@@ -121,7 +121,7 @@ p, small, label {
  */
 
 .h1, .h2, .h3, .h4 {
-	font-family: 'poppins', 'Arial Black', Arial, sans-serif;
+	font-family: 'aktiv-grotesk', 'Arial Black', Arial, sans-serif;
 	line-height: 1.125;
 }
 
@@ -179,7 +179,7 @@ a {
 }
 a * { pointer-events: none; }
 
-strong, .strong { font-weight: 700; }
+strong, .strong { font-weight: 800; }
 em, .em { font-style: italic; }
 .cursive { font-family: 'marydale', Arial, cursive; font-weight: 700; }
 
