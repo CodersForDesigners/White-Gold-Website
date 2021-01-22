@@ -9,6 +9,21 @@
 .landing-section .intro .logo {
 	width: 100px;
 }
+.landing-section .intro .title > span {
+	border-left: solid 1.5px var(--dark);
+}
+.landing-section .intro .link > span {
+	border-left: solid 1.5px var(--blue-2);
+}
+.landing-section .intro .gmaps {
+	line-height: 1;
+}
+.landing-section .intro .gmaps .icon {
+	width: 38px;
+	margin-right: var(--space-min);
+}
+
+
 .landing-section .action {
 	position: relative;
 }
@@ -33,6 +48,7 @@
 	height: auto;
 }
 .landing-section .action .layer-1 .char {
+	width: 300px;
 }
 .landing-section .action .layer-2 {
 	position: relative;
@@ -59,11 +75,47 @@
 	padding-left: 0;
 }
 
-@media( min-width: 640px )  {}
+@media( min-width: 640px )  {
+	.landing-section .intro .gmaps .icon {
+		width: 40px;
+	}
+}
 @media( min-width: 1040px ) {
+	.landing-section .intro .gmaps .icon {
+		width: 44px;
+	}
 	.landing-section .action .layer-2 .phone-link {
 		height: var(--space-50);
 		line-height: var(--space-50);
 	}
 }
-@media( min-width: 1480px ) {}
+@media( min-width: 1480px ) {
+	.landing-section .intro .gmaps .icon {
+		width: 50px;
+	}
+}
+
+
+
+
+
+/* -- Footer Section -- */
+
+.footer-section {}
+.footer-section .about .logo {
+	width: 80px;
+}
+
+
+
+/* -- Info Link Modal -- */
+
+.info-link-modal {}
+.info-link-modal .clip > span {
+	border-left: solid 1.5px var(--blue-2);
+}
+
+.info-link-modal .clip.close > span {
+	border-left: solid 1.5px var(--dark);
+}
+

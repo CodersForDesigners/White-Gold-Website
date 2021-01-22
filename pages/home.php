@@ -30,18 +30,33 @@ require_once __DIR__ . '/../inc/above.php';
 	<div class="container">
 		<div class="row">
 			<div class="intro columns small-12 space-100-top-bottom">
-				<div class="logo space-100-bottom"><img class="block" src="../media/wg-logo-vertical-dark.svg<?php echo $ver ?>"></div>
-				<div class="title h1 strong space-100-bottom">
-					Turn your <br>
-					Gold into <br>
-					Money
+				<div class="logo space-75-bottom"><img class="inline" src="../media/wg-logo-vertical-dark.svg<?php echo $ver ?>"></div>
+				<div class="title h1 strong space-75-bottom">
+					<span class="inline space-min-top-bottom">
+						Turn your <br>
+						Gold into <br>
+						Money
+					</span>
 				</div>
-				<div class="link text-blue-2 space-50-bottom js_modal_trigger" data-mod-id="sample-form"><span class="h3 strong">Sell your gold</span></div>
-				<div class="link text-blue-2 space-50-bottom js_modal_trigger" data-mod-id="sample-form"><span class="h3 strong">Release pledged gold</span></div>
-				<div class="g-maps link text-blue-2" id="js_find_on_maps">
-					<span class="h4 strong">Find Nearest Branch</span><br>
-					<span class="label">View on Google Maps</span>
+				<div class="info link cursor-pointer text-blue-2 space-25-bottom js_modal_trigger" data-mod-id="sell-your-gold">
+					<span class="inline h3 strong space-min-top-bottom">
+						Sell your gold
+						<img class="icon inline" style="width: .75em;" src="../media/icon/icon-box-arrow-right-blue.svg<?php echo $ver ?>">
+					</span>
 				</div>
+				<div class="info link cursor-pointer text-blue-2 space-75-bottom js_modal_trigger" data-mod-id="release-pledged-gold">
+					<span class="inline h3 strong space-min-top-bottom">
+						Release pledged gold
+						<img class="icon inline" style="width: .75em;" src="../media/icon/icon-box-arrow-right-blue.svg<?php echo $ver ?>">
+					</span>
+				</div>
+				<a class="gmaps inline link cursor-pointer text-blue-2" id="js_find_on_maps" target="_blank" href="https://www.google.com/maps/search/white+gold/">
+					<span class="inline clearfix space-min-top-bottom">
+						<img class="icon inline float-left" src="../media/icon/icon-box-gmaps-blue.svg<?php echo $ver ?>">
+						<span class="h4 strong">Find Nearest Branch</span><br>
+						<span class="label">View on Google Maps</span>
+					</span>
+				</a>
 			</div>
 			<div class="action columns small-12 space-100-top-bottom">
 				<div class="background-gradient"></div>
@@ -71,7 +86,7 @@ require_once __DIR__ . '/../inc/above.php';
 	<div class="container">
 		<div class="location row">
 			<div class="h5 strong space-min-bottom">60+ Branches</div>
-			<div class="h5 strong">
+			<div class="h5 strong space-50-bottom">
 				<span>Tamil Nadu</span>
 				 - 
 				<span>Karnataka</span>
@@ -80,6 +95,9 @@ require_once __DIR__ . '/../inc/above.php';
 			</div>
 		</div>
 		<div class="about row">
+			<div class="logo space-min-bottom"><img class="inline" src="../media/wg-logo-small-light.svg<?php echo $ver ?>"></div>
+			<div class="h6">White Gold is a venture of the White Group. <br>
+			Registered entity, Aadhya Gold Pvt Ltd.</div>
 		</div>
 	</div>
 </section>

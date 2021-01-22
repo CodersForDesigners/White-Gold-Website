@@ -41,6 +41,108 @@
 			</div>
 		</div><!-- END : Sample Form -->
 
+
+		<!-- Modal Content : Sell Your Gold -->
+		<div class="modal-box-content info-link-modal js_modal_box_content" data-mod-id="sell-your-gold">
+			<div class="container">
+				<div class="row">
+					<div class="columns small-12 medium-6 large-5 xlarge-4 text-blue-2">
+						<div class="close clip h2 cursor-pointer space-min-bottom js_modal_close">
+							<span class="inline space-min-top-bottom">
+								<img class="icon inline" style="width: 1em;" src="../media/icon/icon-box-arrow-left-dark.svg<?php echo $ver ?>">
+							</span>
+						</div>
+						<div class="title clip space-min-bottom">
+							<span class="inline space-min-top-bottom">
+								<span class="h2 strong">Sell Your <br>Gold</span>
+							</span>
+						</div>
+						<div class="point clip space-min-bottom">
+							<span class="inline space-min-top-bottom">
+								<span class="inline h5 strong">01</span><br>
+								<span class="inline h5">Visit Nearest Branch</span>
+							</span>
+						</div>
+						<div class="point clip space-min-bottom">
+							<span class="inline space-min-top-bottom">
+								<span class="inline h5 strong">02</span><br>
+								<span class="inline h5">Expert Purity Check</span><br>
+								<span class="inline label opacity-75">We use German Technology to get accurate gold purity measurements at all our branches.</span>
+							</span>
+						</div>
+						<div class="point clip space-min-bottom">
+							<span class="inline space-min-top-bottom">
+								<span class="inline h5 strong">03</span><br>
+								<span class="inline h5">Document Verification</span><br>
+								<span class="inline label opacity-75">Carry the purchase receipt and you ID Proof.</span>
+							</span>
+						</div>
+						<div class="point clip space-min-bottom">
+							<span class="inline space-min-top-bottom">
+								<span class="inline h5 strong">04</span><br>
+								<span class="inline h5">Sale & Money Transfer</span><br>
+								<span class="inline label opacity-75">We buy your gold at the best daily price and transfer the money to your bank account.</span>
+							</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!-- END : Sell Your Gold -->
+
+		<!-- Modal Content : Release Pledged Gold -->
+		<div class="modal-box-content info-link-modal js_modal_box_content" data-mod-id="release-pledged-gold">
+			<div class="container">
+				<div class="row">
+					<div class="columns small-12 medium-6 large-5 xlarge-4 text-blue-2">
+						<div class="close clip h2 cursor-pointer space-min-bottom js_modal_close">
+							<span class="inline space-min-top-bottom">
+								<img class="icon inline" style="width: 1em;" src="../media/icon/icon-box-arrow-left-dark.svg<?php echo $ver ?>">
+							</span>
+						</div>
+						<div class="title clip space-min-bottom">
+							<span class="inline space-min-top-bottom">
+								<span class="h2 strong">Release Pledged <br>Gold</span>
+							</span>
+						</div>
+						<div class="point clip space-min-bottom">
+							<span class="inline space-min-top-bottom">
+								<span class="inline h5 strong">01</span><br>
+								<span class="inline h5">Visit Nearest Branch</span>
+							</span>
+						</div>
+						<div class="point clip space-min-bottom">
+							<span class="inline space-min-top-bottom">
+								<span class="inline h5 strong">02</span><br>
+								<span class="inline h5">Bring Pledge Receipt</span>
+							</span>
+						</div>
+						<div class="point clip space-min-bottom">
+							<span class="inline space-min-top-bottom">
+								<span class="inline h5 strong">03</span><br>
+								<span class="inline h5">Loan Provider Settlement</span><br>
+								<span class="inline label opacity-75">We pay your bank or loan provider to release your gold.</span>
+							</span>
+						</div>
+						<div class="point clip space-min-bottom">
+							<span class="inline space-min-top-bottom">
+								<span class="inline h5 strong">04</span><br>
+								<span class="inline h5">Expert Purity Check</span><br>
+								<span class="inline label opacity-75">We use German Technology to get accurate gold purity measurements at all our branches.</span>
+							</span>
+						</div>
+						<div class="point clip space-min-bottom">
+							<span class="inline space-min-top-bottom">
+								<span class="inline h5 strong">05</span><br>
+								<span class="inline h5">Balance Money Transfer</span><br>
+								<span class="inline label opacity-75">We buy your gold at the best daily price and transfer the balance amount to your bank.</span>
+							</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!-- END : Release Pledged Gold -->
+
+
 		<!-- Modal Content : Share -->
 		<div class="modal-box-content js_modal_box_content" data-mod-id="share">
 			<div class="container">
@@ -64,6 +166,10 @@
 				</div>
 			</div>
 		</div><!-- END : Share -->
+
+		<!-- Modal Close -->
+		<!-- <div class="modal-close js_modal_close">×</div> -->
+		<!-- END: Modal Close -->
 
 	</div>
 
