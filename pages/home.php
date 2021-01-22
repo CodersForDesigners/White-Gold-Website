@@ -38,7 +38,7 @@ require_once __DIR__ . '/../inc/above.php';
 				</div>
 				<div class="link text-blue-2 space-50-bottom js_modal_trigger" data-mod-id="sample-form"><span class="h3 strong">Sell your gold</span></div>
 				<div class="link text-blue-2 space-50-bottom js_modal_trigger" data-mod-id="sample-form"><span class="h3 strong">Release pledged gold</span></div>
-				<div class="g-maps link text-blue-2">
+				<div class="g-maps link text-blue-2" id="js_find_on_maps">
 					<span class="h4 strong">Find Nearest Branch</span><br>
 					<span class="label">View on Google Maps</span>
 				</div>
@@ -53,10 +53,10 @@ require_once __DIR__ . '/../inc/above.php';
 							daily gold price.
 						</span>
 					</div>
-					<a class="phone-link fill-light text-blue-2 space-min-left-right" href="">
+					<a class="phone-link fill-light text-blue-2 space-min-left-right" id="js_contact_number_url" href="tel:+919590704444">
 						<span class="h4 inline-middle"><span class="material-icons">phone_in_talk</span></span>
 						<span class="h6 inline-middle">Call today</span>
-						<span class="h6 inline-middle text-dark">+91 95907 04444</span>
+						<span class="h6 inline-middle text-dark" id="js_contact_number_text">+91 95907 04444</span>
 					</a>
 				</div>
 			</div>

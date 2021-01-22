@@ -37,6 +37,7 @@ $footerNavigationMenuItems = \BFS\CMS::getNavigation( 'Footer', '/' );
 
 	<!-- JS Modules -->
 	<?php /* <script type="text/javascript" src="/plugins/base64/js-base64-v3.6.0.min.js"></script> */ ?>
+	<script type="text/javascript" src="/js/modules/cache.js<?= $ver ?>"></script>
 	<script type="text/javascript" src="/js/modules/utils.js<?= $ver ?>"></script>
 	<script type="text/javascript" src="/js/modules/navigation.js<?= $ver ?>"></script>
 	<?php /* <script type="text/javascript" src="/js/modules/video_embed.js<?= $ver ?>"></script> */ ?>
@@ -44,6 +45,7 @@ $footerNavigationMenuItems = \BFS\CMS::getNavigation( 'Footer', '/' );
 	<?php if ( ! BFS_ENV_PRODUCTION ) : ?>
 		<script type="text/javascript" src="/js/modules/disclaimer.js<?= $ver ?>"></script>
 	<?php endif; ?>
+	<script type="text/javascript" src="/js/home.js<?= $ver ?>"></script>
 	<?php /* <script type="text/javascript" src="/js/modules/phone-country-code.js<?= $ver ?>"></script> */ ?>
 	<?php /* <script type="text/javascript" src="/js/modules/cupid/utils.js<?= $ver ?>"></script> */ ?>
 	<?php /* <script type="text/javascript" src="/js/modules/cupid/user.js<?= $ver ?>"></script> */ ?>
