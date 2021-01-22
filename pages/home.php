@@ -69,7 +69,17 @@ require_once __DIR__ . '/../inc/above.php';
 <!-- Footer Section -->
 <section class="footer-section fill-dark space-100-top-bottom" id="footer-section" data-section-title="Footer Section" data-section-slug="footer-section">
 	<div class="container">
-		<div class="row">
+		<div class="location row">
+			<div class="h5 strong space-min-bottom">60+ Branches</div>
+			<div class="h5 strong">
+				<span>Tamil Nadu</span>
+				 - 
+				<span>Karnataka</span>
+				 - 
+				<span>Kerala</span>
+			</div>
+		</div>
+		<div class="about row">
 		</div>
 	</div>
 </section>
