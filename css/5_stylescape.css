@@ -33,23 +33,24 @@
 :root {
 	--light: #FFFFFF;
 	--neutral-1: #E9E9E7;
-	--neutral-2: #96979B;
+	--neutral-2: #C6C6C7;
 	--neutral-3: #96979B;
 	--neutral-4: #4E5055;
-	--dark: #001543;
-	--black: #1F1F21;
-	--yellow-1: #FECB8B;
-	--yellow-2: #FBDB65;
-	--red-1: #FFB7AE;
-	--red-2: #FF6D6A;
-	--red-3: #EE5340;
-	--red-4: #AF231C;
-	--green-1: #A4EDDD;
-	--green-2: #5FE0B7;
-	--blue-1: #C2EAF3;
-	--blue-2: #A7BCD6;
-	--blue-3: #606EB2;
-	--blue-4: #002677;
+	--dark: #212322;
+	--black: deeppink; /* Delete */
+	--yellow-1: #fEE985;
+	--yellow-2: deeppink; /* Delete */
+	--red-1: #DF1B45;
+	--red-2: deeppink; /* Delete */
+	--red-3: deeppink; /* Delete */
+	--red-4: deeppink; /* Delete */
+	--green-1: deeppink; /* Delete */
+	--green-2: deeppink; /* Delete */
+	--blue-1: #537EFF;
+	--blue-2: #0A4FFD;
+	--blue-3: #1619A8;
+	--blue-4: #131480;
+	--blue-5: #1F1844;
 
 	--container-width: 300px;
 	--space-min : 10px;
@@ -206,7 +207,6 @@ hr.blue-4 {
 
 /* -- Weights -- */
 .w-400 { font-weight: 400; }
-.w-700 { font-weight: 700; }
 
 /* -- Line Height -- */
 .line-height-small { line-height: 1.125; }
