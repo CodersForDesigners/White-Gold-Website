@@ -29,9 +29,9 @@ require_once __DIR__ . '/../inc/above.php';
 <section class="landing-section" id="landing-section" data-section-title="Landing Section" data-section-slug="landing-section">
 	<div class="container">
 		<div class="row">
-			<div class="intro columns small-12 space-100-top-bottom">
-				<div class="logo space-75-bottom"><img class="inline" src="../media/wg-logo-vertical-dark.svg<?php echo $ver ?>"></div>
-				<div class="title clip h1 strong space-75-bottom scroll-reveal">
+			<div class="intro columns small-12 large-6 space-75-top-bottom">
+				<div class="logo space-50-bottom"><img class="inline" src="../media/wg-logo-vertical-dark.svg<?php echo $ver ?>"></div>
+				<div class="title clip h1 strong space-50-bottom scroll-reveal">
 					<span class="edge space-min-top-bottom">
 						<span class="thing">
 							<span>Turn your </span><br>
@@ -48,7 +48,7 @@ require_once __DIR__ . '/../inc/above.php';
 						</span>
 					</span>
 				</div>
-				<div class="info clip clip-blue-2 link cursor-pointer text-blue-2 space-75-bottom js_modal_trigger scroll-reveal" data-mod-id="release-pledged-gold">
+				<div class="info clip clip-blue-2 link cursor-pointer text-blue-2 space-50-bottom js_modal_trigger scroll-reveal" data-mod-id="release-pledged-gold">
 					<span class="edge h3 strong space-min-top-bottom">
 						<span class="thing">
 							<span>Release pledged gold</span>
@@ -66,7 +66,7 @@ require_once __DIR__ . '/../inc/above.php';
 					</span>
 				</a>
 			</div>
-			<div class="action columns small-12 space-100-top-bottom">
+			<div class="action columns small-12 large-6 space-75-top-bottom">
 				<div class="background-gradient"></div>
 				<div class="layer-1"><img class="char block" src="../media/char-1.png<?php echo $ver ?>"></div>
 				<div class="layer-2">
@@ -90,22 +90,24 @@ require_once __DIR__ . '/../inc/above.php';
 
 
 <!-- Footer Section -->
-<section class="footer-section fill-dark space-100-top-bottom" id="footer-section" data-section-title="Footer Section" data-section-slug="footer-section">
+<section class="footer-section fill-dark space-75-top-bottom" id="footer-section" data-section-title="Footer Section" data-section-slug="footer-section">
 	<div class="container">
-		<div class="location row">
-			<div class="h5 strong space-min-bottom">60+ Branches</div>
-			<div class="h5 strong space-50-bottom">
-				<span>Tamil Nadu</span>
-				 - 
-				<span>Karnataka</span>
-				 - 
-				<span>Kerala</span>
+		<div class="row">
+			<div class="location columns small-12">
+				<span class="h5 strong inline space-min-bottom space-25-right">60+ Branches</span><br class="hide-large hide-xlarge">
+				<span class="h5 strong inline space-50-bottom">
+					<span>Tamil Nadu</span>
+					 - 
+					<span>Karnataka</span>
+					 - 
+					<span>Kerala</span>
+				</span>
 			</div>
-		</div>
-		<div class="about row">
-			<div class="logo space-min-bottom"><img class="inline" src="../media/wg-logo-small-light.svg<?php echo $ver ?>"></div>
-			<div class="h6">White Gold is a venture of the White Group. <br>
-			Registered entity, Aadhya Gold Pvt Ltd.</div>
+			<div class="about columns small-12">
+				<span class="logo inline-middle space-min-bottom space-25-right"><img class="inline" src="../media/wg-logo-small-light.svg<?php echo $ver ?>"></span><br class="hide-large hide-xlarge">
+				<span class="h6 inline-middle">White Gold is a venture of the White Group. <br>
+				Registered entity, Aadhya Gold Pvt Ltd.</span>
+			</div>
 		</div>
 	</div>
 </section>
