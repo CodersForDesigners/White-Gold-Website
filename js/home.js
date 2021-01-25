@@ -16,15 +16,17 @@ getIpAddress().then( function ( ipAddress ) {
 	var cachedIpAddress = cache.get( "ipAddress" );
 
 	if ( ipAddress === cachedIpAddress )
-		return updateUIBasedOnUserLocation( cache.get( "location" ) );
+		if ( typeof cache.get( "location" ) == "object" )	// if it hasn't already expired or been removed manually
+			return updateUIBasedOnUserLocation( cache.get( "location" ) );
 
-	cache.set( "ipAddress", ipAddress );
+	var inAnHour = new Date( new Date().getTime() + 60 * 60 * 1000 );
+	cache.set( "ipAddress", { value: ipAddress, expiry: inAnHour }, { expires: 365 /* days */ } );
 
 	// Get location data
 	return getLocation().then( function ( data ) {
 		// Cache the data
-		cache.set( "location", data );
-		cache.set( "ipAddress", data.ipAddress );
+		cache.set( "location", data, { expires: 365 /* days */ } );
+		cache.set( "ipAddress", { value: data.ipAddress, expiry: inAnHour }, { expires: 365 /* days */ }  );
 		// Update UI
 		return updateUIBasedOnUserLocation( data );
 	} )
