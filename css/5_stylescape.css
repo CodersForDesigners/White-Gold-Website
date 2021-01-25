@@ -801,7 +801,13 @@ select {
  *
  */
 
+.clip {
+	position: relative;
+	overflow: hidden;
+}
 .clip > .edge {
+	display: inline-block;
+	position: relative;
 	border-left-style: solid;
 	border-left-width: 1.5px;
 }
@@ -810,10 +816,10 @@ select {
 .clip.clip-dark > .edge { border-left-color: var(--dark); }
 .clip.clip-blue-2 > .edge { border-left-color: var(--blue-2); }
 
-.clip > .edge,
-.clip > .edge > span {
-	vertical-align: baseline;
+.clip > .edge > .thing {
+	position: relative;
 	display: inline-block;
+	margin-left: -2px;
 }
 
 
@@ -829,13 +835,22 @@ select {
 
 
 .scroll-reveal {
-	opacity: 0;
-	transform: translateY(var(--space-50));
-	transition: opacity .3s ease-out, transform .3s ease-out;
-	transition-delay: var(--td); /* style="--td: 1.25s;" */
+	/*opacity: 0;*/
+	/*transform: translateY(var(--space-50));*/
+	/*transition: opacity .3s ease-out, transform .3s ease-out;*/
+	/*transition-delay: var(--td);*/ /* style="--td: 1.25s;" */
 }
 
-@keyframes pop {
+.scroll-reveal.clip > .edge > .thing {
+	transform: translateX(-100%);
+	transition: .3s ease-out;
+}
+
+.scroll-reveal.reveal.clip > .edge > .thing {
+	transform: translateX(-0%);
+}
+
+/*@keyframes pop {
 	0% {
 		opacity: 0;
 		transform: scale(1) translateY(var(--space-50));
@@ -850,16 +865,16 @@ select {
 	100% {
 		transform: scale(1) translateY(0);
 	}
-}
+}*/
 
-.scroll-reveal.reveal {
+/*.scroll-reveal.reveal {
 	opacity: 1;
 	transform: translateY(0);
-}
+}*/
 
-.scroll-reveal.reveal.pop {
+/*.scroll-reveal.reveal.pop {
 	transform: none;
 	transition: none;
 	animation: pop .6s cubic-bezier(0, 0, 0.75, 1.5);
 	animation-delay: var(--td);
-}
+}*/

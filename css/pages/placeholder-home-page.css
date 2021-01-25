@@ -9,6 +9,12 @@
 .landing-section .intro .logo {
 	width: 100px;
 }
+.landing-section .intro .title .thing {
+	margin-left: -4px;
+}
+.landing-section .intro .info .thing {
+	margin-left: -3px;
+}
 .landing-section .intro .gmaps {
 	line-height: 1;
 }
@@ -105,4 +111,7 @@
 /* -- Info Link Modal -- */
 
 .info-link-modal {}
+.info-link-modal .title .thing {
+	margin-left: -3px;
+}
 
