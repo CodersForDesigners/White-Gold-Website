@@ -48,40 +48,40 @@
 				<div class="row">
 					<div class="columns small-12 medium-6 large-5 xlarge-4 text-blue-2">
 						<div class="close clip h2 cursor-pointer space-min-bottom js_modal_close">
-							<span class="inline space-min-top-bottom">
-								<img class="icon inline" style="width: 1em;" src="../media/icon/icon-box-arrow-left-dark.svg<?php echo $ver ?>">
+							<span class="edge space-min-top-bottom">
+								<span><img class="icon inline" style="width: 1em;" src="../media/icon/icon-box-arrow-left-dark.svg<?php echo $ver ?>"></span>
 							</span>
 						</div>
-						<div class="title clip space-min-bottom scroll-reveal">
-							<span class="inline space-min-top-bottom">
+						<div class="title clip clip-blue-2 space-min-bottom scroll-reveal">
+							<span class="edge space-min-top-bottom">
 								<span class="h2 strong">Sell Your <br>Gold</span>
 							</span>
 						</div>
-						<div class="point clip space-min-bottom scroll-reveal">
-							<span class="inline space-min-top-bottom">
-								<span class="inline h5 strong">01</span><br>
-								<span class="inline h5">Visit Nearest Branch</span>
+						<div class="point clip clip-blue-2 space-min-bottom scroll-reveal">
+							<span class="edge space-min-top-bottom">
+								<span class="h5 strong">01</span><br>
+								<span class="h5">Visit Nearest Branch</span>
 							</span>
 						</div>
-						<div class="point clip space-min-bottom scroll-reveal">
-							<span class="inline space-min-top-bottom">
-								<span class="inline h5 strong">02</span><br>
-								<span class="inline h5">Expert Purity Check</span><br>
-								<span class="inline label opacity-75">We use German Technology to get accurate gold purity measurements at all our branches.</span>
+						<div class="point clip clip-blue-2 space-min-bottom scroll-reveal">
+							<span class="edge space-min-top-bottom">
+								<span class="h5 strong">02</span><br>
+								<span class="h5">Expert Purity Check</span><br>
+								<span class="label opacity-75">We use German Technology to get accurate gold purity measurements at all our branches.</span>
 							</span>
 						</div>
-						<div class="point clip space-min-bottom scroll-reveal">
-							<span class="inline space-min-top-bottom">
-								<span class="inline h5 strong">03</span><br>
-								<span class="inline h5">Document Verification</span><br>
-								<span class="inline label opacity-75">Carry the purchase receipt and your ID Proof.</span>
+						<div class="point clip clip-blue-2 space-min-bottom scroll-reveal">
+							<span class="edge space-min-top-bottom">
+								<span class="h5 strong">03</span><br>
+								<span class="h5">Document Verification</span><br>
+								<span class="label opacity-75">Carry the purchase receipt and your ID Proof.</span>
 							</span>
 						</div>
-						<div class="point clip space-min-bottom scroll-reveal">
-							<span class="inline space-min-top-bottom">
-								<span class="inline h5 strong">04</span><br>
-								<span class="inline h5">Sale & Money Transfer</span><br>
-								<span class="inline label opacity-75">We buy your gold at the best daily price and transfer the money to your bank account.</span>
+						<div class="point clip clip-blue-2 space-min-bottom scroll-reveal">
+							<span class="edge space-min-top-bottom">
+								<span class="h5 strong">04</span><br>
+								<span class="h5">Sale & Money Transfer</span><br>
+								<span class="label opacity-75">We buy your gold at the best daily price and transfer the money to your bank account.</span>
 							</span>
 						</div>
 					</div>
@@ -95,46 +95,46 @@
 				<div class="row">
 					<div class="columns small-12 medium-6 large-5 xlarge-4 text-blue-2">
 						<div class="close clip h2 cursor-pointer space-min-bottom js_modal_close">
-							<span class="inline space-min-top-bottom">
-								<img class="icon inline" style="width: 1em;" src="../media/icon/icon-box-arrow-left-dark.svg<?php echo $ver ?>">
+							<span class="edge space-min-top-bottom">
+								<span><img class="icon inline" style="width: 1em;" src="../media/icon/icon-box-arrow-left-dark.svg<?php echo $ver ?>"></span>
 							</span>
 						</div>
-						<div class="title clip space-min-bottom">
-							<span class="inline space-min-top-bottom">
+						<div class="title clip clip-blue-2 space-min-bottom">
+							<span class="edge space-min-top-bottom">
 								<span class="h2 strong">Release Pledged <br>Gold</span>
 							</span>
 						</div>
-						<div class="point clip space-min-bottom">
-							<span class="inline space-min-top-bottom">
-								<span class="inline h5 strong">01</span><br>
-								<span class="inline h5">Visit Nearest Branch</span>
+						<div class="point clip clip-blue-2 space-min-bottom">
+							<span class="edge space-min-top-bottom">
+								<span class="h5 strong">01</span><br>
+								<span class="h5">Visit Nearest Branch</span>
 							</span>
 						</div>
-						<div class="point clip space-min-bottom">
-							<span class="inline space-min-top-bottom">
-								<span class="inline h5 strong">02</span><br>
-								<span class="inline h5">Bring Pledge Receipt</span>
+						<div class="point clip clip-blue-2 space-min-bottom">
+							<span class="edge space-min-top-bottom">
+								<span class="h5 strong">02</span><br>
+								<span class="h5">Bring Pledge Receipt</span>
 							</span>
 						</div>
-						<div class="point clip space-min-bottom">
-							<span class="inline space-min-top-bottom">
-								<span class="inline h5 strong">03</span><br>
-								<span class="inline h5">Loan Provider Settlement</span><br>
-								<span class="inline label opacity-75">We pay your bank or loan provider to release your gold.</span>
+						<div class="point clip clip-blue-2 space-min-bottom">
+							<span class="edge space-min-top-bottom">
+								<span class="h5 strong">03</span><br>
+								<span class="h5">Loan Provider Settlement</span><br>
+								<span class="label opacity-75">We pay your bank or loan provider to release your gold.</span>
 							</span>
 						</div>
-						<div class="point clip space-min-bottom">
-							<span class="inline space-min-top-bottom">
-								<span class="inline h5 strong">04</span><br>
-								<span class="inline h5">Expert Purity Check</span><br>
-								<span class="inline label opacity-75">We use German Technology to get accurate gold purity measurements at all our branches.</span>
+						<div class="point clip clip-blue-2 space-min-bottom">
+							<span class="edge space-min-top-bottom">
+								<span class="h5 strong">04</span><br>
+								<span class="h5">Expert Purity Check</span><br>
+								<span class="label opacity-75">We use German Technology to get accurate gold purity measurements at all our branches.</span>
 							</span>
 						</div>
-						<div class="point clip space-min-bottom">
-							<span class="inline space-min-top-bottom">
-								<span class="inline h5 strong">05</span><br>
-								<span class="inline h5">Balance Money Transfer</span><br>
-								<span class="inline label opacity-75">We buy your gold at the best daily price and transfer the balance amount to your bank.</span>
+						<div class="point clip clip-blue-2 space-min-bottom">
+							<span class="edge space-min-top-bottom">
+								<span class="h5 strong">05</span><br>
+								<span class="h5">Balance Money Transfer</span><br>
+								<span class="label opacity-75">We buy your gold at the best daily price and transfer the balance amount to your bank.</span>
 							</span>
 						</div>
 					</div>

@@ -797,6 +797,31 @@ select {
 
 /*
  *
+ *	Text Clip
+ *
+ */
+
+.clip > .edge {
+	border-left-style: solid;
+	border-left-width: 1.5px;
+}
+
+.clip > .edge,
+.clip.clip-dark > .edge { border-left-color: var(--dark); }
+.clip.clip-blue-2 > .edge { border-left-color: var(--blue-2); }
+
+.clip > .edge,
+.clip > .edge > span {
+	vertical-align: baseline;
+	display: inline-block;
+}
+
+
+
+
+
+/*
+ *
  *	Scroll Reveal
  *
  */

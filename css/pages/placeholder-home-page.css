@@ -9,12 +9,6 @@
 .landing-section .intro .logo {
 	width: 100px;
 }
-.landing-section .intro .title > span {
-	border-left: solid 1.5px var(--dark);
-}
-.landing-section .intro .link > span {
-	border-left: solid 1.5px var(--blue-2);
-}
 .landing-section .intro .gmaps {
 	line-height: 1;
 }
@@ -111,11 +105,4 @@
 /* -- Info Link Modal -- */
 
 .info-link-modal {}
-.info-link-modal .clip > span {
-	border-left: solid 1.5px var(--blue-2);
-}
-
-.info-link-modal .clip.close > span {
-	border-left: solid 1.5px var(--dark);
-}
 
