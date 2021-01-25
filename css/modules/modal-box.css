@@ -28,7 +28,8 @@
 
 .modal-box-content {
 	display: none;
-	align-items: center;
+	/*align-items: center;*/
+	align-items: flex-start;
 	justify-content: center;
 	position: relative;
 	width: 100%;
