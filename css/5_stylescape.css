@@ -791,3 +791,50 @@ select {
 	border-color: var(--blue-4);
 }
 
+
+
+
+
+/*
+ *
+ *	Scroll Reveal
+ *
+ */
+
+
+
+.scroll-reveal {
+	opacity: 0;
+	transform: translateY(var(--space-50));
+	transition: opacity .3s ease-out, transform .3s ease-out;
+	transition-delay: var(--td); /* style="--td: 1.25s;" */
+}
+
+@keyframes pop {
+	0% {
+		opacity: 0;
+		transform: scale(1) translateY(var(--space-50));
+	}
+	50% {
+		opacity: 1;
+		transform: scale(1) translateY(0);
+	}
+	75% {
+		transform: scale(1.25) translateY(0);
+	}
+	100% {
+		transform: scale(1) translateY(0);
+	}
+}
+
+.scroll-reveal.reveal {
+	opacity: 1;
+	transform: translateY(0);
+}
+
+.scroll-reveal.reveal.pop {
+	transform: none;
+	transition: none;
+	animation: pop .6s cubic-bezier(0, 0, 0.75, 1.5);
+	animation-delay: var(--td);
+}

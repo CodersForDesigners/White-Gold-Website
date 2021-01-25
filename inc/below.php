@@ -40,6 +40,7 @@ $footerNavigationMenuItems = \BFS\CMS::getNavigation( 'Footer', '/' );
 	<script type="text/javascript" src="/js/modules/cache.js<?= $ver ?>"></script>
 	<script type="text/javascript" src="/js/modules/utils.js<?= $ver ?>"></script>
 	<script type="text/javascript" src="/js/modules/navigation.js<?= $ver ?>"></script>
+	<script type="text/javascript" src="/js/modules/scroll-reveal.js<?= $ver ?>"></script>
 	<?php /* <script type="text/javascript" src="/js/modules/video_embed.js<?= $ver ?>"></script> */ ?>
 	<script type="text/javascript" src="/js/modules/modal_box.js<?= $ver ?>"></script>
 	<?php if ( ! BFS_ENV_PRODUCTION ) : ?>

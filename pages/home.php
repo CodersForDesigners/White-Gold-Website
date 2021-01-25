@@ -31,26 +31,26 @@ require_once __DIR__ . '/../inc/above.php';
 		<div class="row">
 			<div class="intro columns small-12 space-100-top-bottom">
 				<div class="logo space-75-bottom"><img class="inline" src="../media/wg-logo-vertical-dark.svg<?php echo $ver ?>"></div>
-				<div class="title h1 strong space-75-bottom">
+				<div class="title h1 strong space-75-bottom scroll-reveal">
 					<span class="inline space-min-top-bottom">
 						Turn your <br>
 						Gold into <br>
 						Money
 					</span>
 				</div>
-				<div class="info link cursor-pointer text-blue-2 space-25-bottom js_modal_trigger" data-mod-id="sell-your-gold">
+				<div class="info link cursor-pointer text-blue-2 space-25-bottom js_modal_trigger scroll-reveal" data-mod-id="sell-your-gold">
 					<span class="inline h3 strong space-min-top-bottom">
 						Sell your gold
 						<img class="icon inline" style="width: .75em;" src="../media/icon/icon-box-arrow-right-blue.svg<?php echo $ver ?>">
 					</span>
 				</div>
-				<div class="info link cursor-pointer text-blue-2 space-75-bottom js_modal_trigger" data-mod-id="release-pledged-gold">
+				<div class="info link cursor-pointer text-blue-2 space-75-bottom js_modal_trigger scroll-reveal" data-mod-id="release-pledged-gold">
 					<span class="inline h3 strong space-min-top-bottom">
 						Release pledged gold
 						<img class="icon inline" style="width: .75em;" src="../media/icon/icon-box-arrow-right-blue.svg<?php echo $ver ?>">
 					</span>
 				</div>
-				<a class="gmaps inline link cursor-pointer text-blue-2" id="js_find_on_maps" target="_blank" href="https://www.google.com/maps/search/white+gold/">
+				<a class="gmaps inline link cursor-pointer text-blue-2 scroll-reveal" id="js_find_on_maps" target="_blank" href="https://www.google.com/maps/search/white+gold/">
 					<span class="inline clearfix space-min-top-bottom">
 						<img class="icon inline float-left" src="../media/icon/icon-box-gmaps-blue.svg<?php echo $ver ?>">
 						<span class="h4 strong">Find Nearest Branch</span><br>
