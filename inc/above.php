@@ -34,7 +34,7 @@ else
 
 
 // Construct the page's title ( for use in the title tag )
-$siteTitle = cmsIsEnabled() ? get_bloginfo( 'name' ) : '';
+$siteTitle = cmsIsEnabled() ? get_bloginfo( 'name' ) : 'White Gold | Turn your Gold into Money';
 $pageUrl = $siteUrl . '/' . $requestPath;
 
 // Build the Page Title ( if an explicit one is set, use that )
@@ -47,9 +47,9 @@ else
 /*
  * Meta / SEO
  */
-$metaDescription = htmlentities( strip_tags( $metaDescription ?? getContent( '', 'meta_description' ) ) );
+$metaDescription = htmlentities( strip_tags( $metaDescription ?? getContent( 'Sell your gold. Release your gold loan. Get the best daily gold price.', 'meta_description' ) ) );
 $metaImage = $metaImage ?? getContent( [ ], 'meta_image' );
-$metaImage = $metaImage[ 'sizes' ][ 'medium' ] ?? $metaImage[ 'sizes' ][ 'small' ] ?? $metaImage[ 'sizes' ][ 'thumbnail' ] ?? $metaImage[ 'url' ] ?? ( $siteUrl . '/media/fallback-image.png' );
+$metaImage = $metaImage[ 'sizes' ][ 'medium' ] ?? $metaImage[ 'sizes' ][ 'small' ] ?? $metaImage[ 'sizes' ][ 'thumbnail' ] ?? $metaImage[ 'url' ] ?? ( $siteUrl . '/media/logo.png' );
 
 
 // #fornow

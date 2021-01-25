@@ -69,13 +69,14 @@
 	<meta name="msapplication-TileImage" content="/mstile-150x150.png">
 
 
+	<meta name="application-name" content="White Gold">
 	<!-- ~ iOS ~ -->
 	<!-- Disable automatic detection and formatting of possible phone numbers -->
 	<meta name="format-detection" content="telephone=no">
 	<!-- Launch Screen Image -->
 	<!-- <link rel="apple-touch-startup-image" href="/path/to/launch.png"> -->
 	<!-- Launch Icon Title -->
-	<meta name="apple-mobile-web-app-title" content="<?php echo getContent( 'Brown.ie', 'apple -> ios_app_title' ); ?>">
+	<meta name="apple-mobile-web-app-title" content="<?php echo getContent( 'White Gold', 'apple -> ios_app_title' ); ?>">
 	<!-- Enable standalone (full-screen) mode -->
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<!-- Status bar appearance (has no effect unless standalone mode is enabled) -->
@@ -102,7 +103,7 @@
 	<?php if ( $metaImage ) : ?>
 	<meta property="og:image" content="<?= $metaImage ?>">
 	<?php endif; ?>
-	<meta property="og:site_name" content="<?php echo getContent( '', 'site_title' ) ?>">
+	<meta property="og:site_name" content="<?php echo getContent( $siteTitle, 'site_title' ) ?>">
 
 
 	<!-- Schema.org / Google+ -->
