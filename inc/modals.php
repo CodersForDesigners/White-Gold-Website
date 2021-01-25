@@ -74,7 +74,7 @@
 							<span class="inline space-min-top-bottom">
 								<span class="inline h5 strong">03</span><br>
 								<span class="inline h5">Document Verification</span><br>
-								<span class="inline label opacity-75">Carry the purchase receipt and you ID Proof.</span>
+								<span class="inline label opacity-75">Carry the purchase receipt and your ID Proof.</span>
 							</span>
 						</div>
 						<div class="point clip space-min-bottom">
