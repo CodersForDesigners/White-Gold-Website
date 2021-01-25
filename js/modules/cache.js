@@ -36,8 +36,14 @@ if ( ! window.Cookies )
 	utils.cache.get = function get ( key ) {
 		var data = utils.CookieJar.get( key );
 		var value;
-		if ( typeof data == "string" )
+		if ( typeof data == "string" ) {
 			value = JSON.parse( data ).value;
+			if ( value.expiry )
+				if ( value.expiry < ( new Date ).getTime() )
+					value = null;
+				else
+					value = value.value;
+		}
 		else
 			value = data;
 		return value;
