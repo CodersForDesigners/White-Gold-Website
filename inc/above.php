@@ -69,6 +69,11 @@ http_response_code( 200 );
 
 		<?= getContent( '', 'arbitrary_code -> after_body_opening' ); ?>
 
+		<!-- Google Tag Manager (noscript) -->
+		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TLN9437"
+		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<!-- End Google Tag Manager (noscript) -->
+
 	<!--  ★  MARKUP GOES HERE  ★  -->
 
 	<div id="page-wrapper"><!-- Page Wrapper -->
