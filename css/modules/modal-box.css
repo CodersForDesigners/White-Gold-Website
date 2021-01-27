@@ -15,7 +15,7 @@
 
 /* -- Modal Box -- */
 .modal-box {
-	--mtd: 300ms;
+	--mtd: 300ms; /* -- Modal Transition Delay -- */
 	display: block;
 	position: fixed;
 	z-index: 12;
