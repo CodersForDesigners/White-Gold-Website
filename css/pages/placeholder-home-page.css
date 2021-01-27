@@ -54,9 +54,14 @@
 	position: relative;
 	z-index: 3;
 }
+.landing-section .action .layer-2 .title {
+	text-shadow: 1px 1.5px 0px var(--dark);
+}
 .landing-section .action .layer-2 .title span {
 	padding-bottom: calc(var(--space-min)/2);
-	border-bottom: solid 3px var(--light);
+	/*border-bottom: solid 3px var(--light);*/
+	/*text-shadow: 1px 1.5px 0px var(--dark);*/
+	box-shadow: 0px 3px 0px 0px var(--light), 0px 4.5px 0px 0px var(--dark);
 }
 
 .landing-section .action .layer-2 .phone-link {
