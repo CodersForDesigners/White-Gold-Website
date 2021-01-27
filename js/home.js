@@ -23,7 +23,7 @@ getIpAddress().then( function ( ipAddress ) {
 	cache.set( "ipAddress", { value: ipAddress, expiry: inAnHour }, { expires: 365 /* days */ } );
 
 	// Get location data
-	return getLocation().then( function ( data ) {
+	return getLocation( ipAddress ).then( function ( data ) {
 		// Cache the data
 		cache.set( "location", data, { expires: 365 /* days */ } );
 		cache.set( "ipAddress", { value: data.ipAddress, expiry: inAnHour }, { expires: 365 /* days */ }  );
@@ -47,25 +47,13 @@ function getIpAddress () {
 
 function getLocation ( ipAddress ) {
 
-	var baseURL = "http://ip-api.com/json";
-	var url = baseURL;
-	if ( ipAddress )
-		url = baseURL + "/" + ipAddress;
+	var baseURL = "/api/address/location";
+	var url = baseURL + "?ipAddress=" + ipAddress;
 	return window.fetch( url )
 		.then( function ( response ) { return response.json() } )
 		.then( function ( r ) {
-			if ( r.status == "success" )
-				return {
-					country: r.country,
-					countryCode: r.countryCode,
-					region: r.region,
-					regionName: r.regionName,
-					city: r.city,
-					zip: r.zip,
-					lat: r.lat,
-					lon: r.lon,
-					ipAddress: r.query
-				};
+			if ( r.status == "ok" )
+				return r.data;
 			else
 				throw new Error( "Could not retrieve location information." );
 		} )
@@ -74,7 +62,7 @@ function getLocation ( ipAddress ) {
 
 function updateUIBasedOnUserLocation ( location ) {
 
-	if ( location.countryCode != "IN" )
+	if ( location.country.isoCode != "IN" )
 		return;
 
 	var $contactNumberURL = $( "#js_contact_number_url" );
@@ -84,14 +72,14 @@ function updateUIBasedOnUserLocation ( location ) {
 		TN: "+91 80951 00700",
 		KL: "+91 95622 62222"
 	};
-	var contactNumberInUserRegion = contactNumbers[ location.region ];
+	var contactNumberInUserRegion = contactNumbers[ location.mostSpecificSubdivision.isoCode ];
 	if ( ! contactNumberInUserRegion )
 		return;
 
 	$contactNumberURL.attr( "href", "tel:" + contactNumberInUserRegion.replace( /\s+/g, "" ) );
 	$contactNumberText.text( contactNumberInUserRegion );
 
-	if ( location.region == "TN" )
+	if ( location.mostSpecificSubdivision.isoCode == "TN" )
 		$( "#js_find_on_maps" ).addClass( "invisible" );
 
 }
