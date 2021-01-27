@@ -15,7 +15,8 @@
 
 /* -- Modal Box -- */
 .modal-box {
-	display: none;
+	--mtd: 300ms;
+	display: block;
 	position: fixed;
 	z-index: 12;
 	top: 0;
@@ -24,6 +25,12 @@
 	bottom: 0;
 	overflow-y: auto;
 	-webkit-overflow-scrolling: touch;
+	transform: translateX(100%);
+	transition: var(--mtd) ease-out;
+}
+
+.body.modal-open .modal-box {
+	transform: translateX(0%);
 }
 
 .modal-box-content {

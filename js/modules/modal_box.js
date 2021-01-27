@@ -18,7 +18,7 @@ $( function () {
 		var $modalTrigger = $( event.target ).closest( ".js_modal_trigger" );
 		var modalId = $modalTrigger.data( "modId" );
 
-		$( ".js_modal_box" ).fadeIn( 350 );	// Fade in the modal box
+		// $( ".js_modal_box" ).fadeIn( 350 );	// Fade in the modal box
 		$( document.body ).addClass( "modal-open" );	// Freeze the page layer
 		// Show the modal's content
 		$( ".js_modal_box_content" )
@@ -38,7 +38,7 @@ $( function () {
 		var $activeModal = $( ".js_modal_box_content" ).filter( ".active" );
 		var modalId = $activeModal.data( "modId" );
 
-		$( ".js_modal_box" ).fadeOut( 350 );	// Hide the modal box
+		//$( ".js_modal_box" ).fadeOut( 350 );	// Hide the modal box
 		$( document.body )
 			.removeClass( "modal-open" ) // Un-freeze the page layer
 			.removeClass( "modal-nav" );

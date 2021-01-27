@@ -60,7 +60,7 @@ require_once __DIR__ . '/../inc/above.php';
 					<span class="edge space-min-top-bottom">
 						<span class="thing clearfix">
 							<span class="float-left"><img class="icon inline" src="../media/icon/icon-box-gmaps-blue.svg<?php echo $ver ?>"></span>
-							<span class="h4 strong">Find Nearest Branch</span><br>
+							<span class="h4 float-right strong no-wrap">Find Nearest Branch</span><br>
 							<span class="label">View on Google Maps</span>
 						</span>
 					</span>
