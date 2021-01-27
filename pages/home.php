@@ -26,7 +26,7 @@ require_once __DIR__ . '/../inc/above.php';
 
 
 <!-- Landing Section -->
-<section class="landing-section" id="landing-section" data-section-title="Landing Section" data-section-slug="landing-section">
+<section class="landing-section fill-light" id="landing-section" data-section-title="Landing Section" data-section-slug="landing-section">
 	<div class="container">
 		<div class="row">
 			<div class="intro columns small-12 large-6 space-75-top-bottom">
