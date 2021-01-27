@@ -834,16 +834,23 @@ select {
 
 
 
-.scroll-reveal {
-	/*opacity: 0;*/
-	/*transform: translateY(var(--space-50));*/
-	/*transition: opacity .3s ease-out, transform .3s ease-out;*/
+.scroll-reveal.clip > .edge {
+	opacity: 0;
+	transform: translateY(var(--space-50));
+	transition: opacity .3s ease-out, transform .3s ease-out;
 	/*transition-delay: var(--td);*/ /* style="--td: 1.25s;" */
 }
 
 .scroll-reveal.clip > .edge > .thing {
 	transform: translateX(-100%);
 	transition: .3s ease-out;
+	/*transition-delay: calc( var(--td) + .4s );*/
+	transition-delay: .4s;
+}
+
+.scroll-reveal.reveal.clip > .edge {
+	opacity: 1;
+	transform: translateY(0);
 }
 
 .scroll-reveal.reveal.clip > .edge > .thing {
