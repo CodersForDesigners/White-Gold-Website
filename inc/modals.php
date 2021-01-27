@@ -1,7 +1,7 @@
 <!-- ⬇ All Modals below this point ⬇ -->
 
 <div id="modal-wrapper"><!-- Modal Wrapper -->
-	<div class="modal-box js_modal_box">
+	<div class="modal-box js_modal_box" id="js_modal_box">
 		<!-- Modal Content : YouTube Video -->
 		<div class="modal-box-content js_modal_box_content" data-mod-id="youtube-video">
 			<div class="container">

@@ -76,4 +76,16 @@ $( function () {
 
 	} )
 
+
+	$( document ).on( "modal/open", function ( event ) {
+		$( document ).trigger( "scrolling-layer/change", {
+			domNode: document.getElementById( "js_modal_box" )
+		} );
+	} );
+	$( document ).on( "modal/close", function ( event ) {
+		$( document ).trigger( "scrolling-layer/change", {
+			domNode: null
+		} );
+	} );
+
 } );
