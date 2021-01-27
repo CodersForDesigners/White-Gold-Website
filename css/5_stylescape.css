@@ -844,7 +844,7 @@ select {
 .scroll-reveal.clip > .edge > .thing {
 	transform: translateX(-100%);
 	transition: .3s ease-out;
-	/*transition-delay: calc( var(--td) + .4s );*/
+	/*transition-delay: calc( var(--td) + .4s );*/ /* -- This is not working not sure why -- */
 	transition-delay: .4s;
 }
 
