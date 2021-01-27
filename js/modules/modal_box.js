@@ -42,7 +42,14 @@ $( function () {
 		$( document.body )
 			.removeClass( "modal-open" ) // Un-freeze the page layer
 			.removeClass( "modal-nav" );
-		$activeModal.removeClass( "active" );	// Hide the modal content
+
+		// Hide the modal content
+		var hideDelay = parseInt( getComputedStyle( $activeModal.get( 0 ) ).getPropertyValue( "--mtd" ), 10 ) + 50;
+		setTimeout( function () {
+			window.requestAnimationFrame( function () {
+				$activeModal.removeClass( "active" );
+			} )
+		}, hideDelay )
 
 		var $videoEmbeds = $activeModal.find( ".js_video_embed" );
 		$videoEmbeds.each( function ( _i, el ) {
