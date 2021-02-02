@@ -158,4 +158,13 @@
 .info-link-modal .title .thing {
 	margin-left: -3px;
 }
-
+.info-link-modal .point .thing .p {
+	display: inline-block;
+	padding-left: 8px;
+}
+@media( min-width: 1480px ) {
+	.info-link-modal .point .thing .p {
+		display: inline-block;
+		padding-left: 10px;
+	}
+}

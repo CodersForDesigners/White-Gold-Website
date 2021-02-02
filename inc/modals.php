@@ -74,7 +74,7 @@
 								<span class="thing">
 									<span class="h5 strong">02</span><br>
 									<span class="h5">Expert Purity Check</span><br>
-									<span class="p opacity-75">We use German Technology to get accurate gold purity measurements at all our branches.</span>
+									<span class="p text-dark opacity-75">We use German Technology to get accurate gold purity measurements at all our branches.</span>
 								</span>
 							</span>
 						</div>
@@ -83,7 +83,7 @@
 								<span class="thing">
 									<span class="h5 strong">03</span><br>
 									<span class="h5">Document Verification</span><br>
-									<span class="p opacity-75">Carry the purchase receipt and your ID Proof.</span>
+									<span class="p text-dark opacity-75">Carry the purchase receipt and your ID Proof.</span>
 								</span>
 							</span>
 						</div>
@@ -92,7 +92,7 @@
 								<span class="thing">
 									<span class="h5 strong">04</span><br>
 									<span class="h5">Sale & Money Transfer</span><br>
-									<span class="p opacity-75">We buy your gold at the best daily price and transfer the money to your bank account.</span>
+									<span class="p text-dark opacity-75">We buy your gold at the best daily price and transfer the money to your bank account.</span>
 								</span>
 							</span>
 						</div>
@@ -141,7 +141,7 @@
 								<span class="thing">
 									<span class="h5 strong">03</span><br>
 									<span class="h5">Loan Provider Settlement</span><br>
-									<span class="p opacity-75">We pay your bank or loan provider to release your gold.</span>
+									<span class="p text-dark opacity-75">We pay your bank or loan provider to release your gold.</span>
 								</span>
 							</span>
 						</div>
@@ -150,7 +150,7 @@
 								<span class="thing">
 									<span class="h5 strong">04</span><br>
 									<span class="h5">Expert Purity Check</span><br>
-									<span class="p opacity-75">We use German Technology to get accurate gold purity measurements at all our branches.</span>
+									<span class="p text-dark opacity-75">We use German Technology to get accurate gold purity measurements at all our branches.</span>
 								</span>
 							</span>
 						</div>
@@ -159,7 +159,7 @@
 								<span class="thing">
 									<span class="h5 strong">05</span><br>
 									<span class="h5">Balance Money Transfer</span><br>
-									<span class="p opacity-75">We buy your gold at the best daily price and transfer the balance amount to your bank.</span>
+									<span class="p text-dark opacity-75">We buy your gold at the best daily price and transfer the balance amount to your bank.</span>
 								</span>
 							</span>
 						</div>
