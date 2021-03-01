@@ -774,6 +774,9 @@ select {
 	font-size: inherit !important;
 	vertical-align: middle;
 }
+.material-icons:after {
+	content: attr(data-icon);
+}
 
 
 
