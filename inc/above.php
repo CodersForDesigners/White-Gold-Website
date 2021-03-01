@@ -71,6 +71,13 @@ http_response_code( 200 );
 
 		<?= getContent( '', 'arbitrary_code -> after_body_opening' ); ?>
 
+		<!-- SEO: In some edge cases, any text that is within a semantic content tag is scraped and presented in search results (even if it's hidden from the layout) -->
+		<div class="visuallyhidden">
+			<h1>White Gold India</h1>
+			<h2>Turn your Gold into Money</h2>
+			<p>Sell your gold. Release your gold loan. Get the best daily gold price.</p>
+		</div>
+
 		<!-- Google Tag Manager (noscript) -->
 		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TLN9437"
 		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
