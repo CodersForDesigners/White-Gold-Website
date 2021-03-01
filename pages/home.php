@@ -77,7 +77,7 @@ require_once __DIR__ . '/../inc/above.php';
 						</span>
 					</div>
 					<a class="phone-link fill-light text-blue-2 space-min-left-right" id="js_contact_number_url" href="tel:+919590704444">
-						<span class="h4 inline-middle"><span class="material-icons">phone_in_talk</span></span>
+						<span class="h4 inline-middle"><span class="material-icons" data-icon="phone_in_talk"></span></span>
 						<span class="h6 inline-middle">Call today</span>
 						<span class="h6 inline-middle text-dark" id="js_contact_number_text">+91 95907 04444</span>
 					</a>
