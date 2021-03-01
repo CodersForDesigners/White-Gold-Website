@@ -167,7 +167,8 @@ ini_set( 'display_errors', CMS_DEBUG_LOG_TO_FRONTEND ? '1' : '0' );
  * Cron
  *
  */
-// define( 'DISABLE_WP_CRON', true );
+// if ( BFS_ENV_PRODUCTION )
+	// define( 'DISABLE_WP_CRON', true );
 
 
 
@@ -182,9 +183,8 @@ define( 'WP_AUTO_UPDATE_CORE', CMS_AUTO_UPDATE );
 /* That's all, stop editing! Happy publishing. */
 
 /** Absolute path to the WordPress directory. */
-if ( ! defined( 'ABSPATH' ) ) {
+if ( ! defined( 'ABSPATH' ) )
 	define( 'ABSPATH', __DIR__ . '/' );
-}
 
 /** Sets up WordPress vars and included files. */
 require_once ABSPATH . 'wp-settings.php';
