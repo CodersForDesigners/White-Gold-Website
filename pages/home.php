@@ -71,9 +71,8 @@ require_once __DIR__ . '/../inc/above.php';
 				<div class="layer-1"><img class="char block" src="../media/char-1.png<?php echo $ver ?>"></div>
 				<div class="layer-2">
 					<div class="title h2 strong text-light">
-						<span class="inline">
-							Get the best <br>
-							daily gold price.
+						<span class="inline" style="white-space: nowrap; width: min-intrinsic; width: min-content;">
+							Get the best <wbr> daily gold price.
 						</span>
 					</div>
 					<a class="phone-link fill-light text-blue-2 space-min-left-right" id="js_contact_number_url" href="tel:+919590704444">
