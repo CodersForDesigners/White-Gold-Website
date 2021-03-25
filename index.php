@@ -42,29 +42,29 @@ if ( $requestPath === 'home' ) {
 }
 
 // Every other page
-http_response_code( 302 );
-header( 'Location: /' );
+// http_response_code( 302 );
+// header( 'Location: /' );
 
 // Every other page
-// $filename = $documentRoot . '/pages/' . $requestPath . '.php';
-// if ( file_exists( $filename ) ) {
-// 	$hasDedicatedTemplate = true;
-// 	// Set a query param
-// 	$urlSlug = $requestPath;
-// 	$_GET[ '_slug' ] = $requestPath;
-// 	return require_once $filename;
-// }
-// else if ( count( explode( '/', $requestPath ) ) === 2 ) {
-// 	[ $postType, $urlSlug ] = explode( '/', $requestPath );
-// 	$_GET[ '_slug' ] = $urlSlug;
-// 	// $_GET[ '_post_type' ] = $postType;
-// 	$filename = $documentRoot . '/pages/' . $postType . '.php';
-// 	return require_once $filename;
-// }
-// // Else fallback to the default template
-// else {
-// 	// $postType = 'post';
-// 	$urlSlug = $requestPath;
-// 	$filename = $documentRoot . '/pages/post.php';
-// 	return require_once $filename;
-// }
+$filename = $documentRoot . '/pages/' . $requestPath . '.php';
+if ( file_exists( $filename ) ) {
+	$hasDedicatedTemplate = true;
+	// Set a query param
+	$urlSlug = $requestPath;
+	$_GET[ '_slug' ] = $requestPath;
+	return require_once $filename;
+}
+else if ( count( explode( '/', $requestPath ) ) === 2 ) {
+	[ $postType, $urlSlug ] = explode( '/', $requestPath );
+	$_GET[ '_slug' ] = $urlSlug;
+	// $_GET[ '_post_type' ] = $postType;
+	$filename = $documentRoot . '/pages/' . $postType . '.php';
+	return require_once $filename;
+}
+// Else fallback to the default template
+else {
+	// $postType = 'post';
+	$urlSlug = $requestPath;
+	$filename = $documentRoot . '/pages/post.php';
+	return require_once $filename;
+}
